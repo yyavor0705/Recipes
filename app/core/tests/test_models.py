@@ -31,6 +31,9 @@ class TestModels(TestCase):
         self.assertEqual(user.email, test_email.lower())
 
     def test_if_empty_email_raises_value_error(self):
+        """
+        Test if ValueError is riesd when provided email is empty or None
+        """
         empty_email = ""
         test_password = "testPassword"
         with self.assertRaises(ValueError):
@@ -40,6 +43,9 @@ class TestModels(TestCase):
             )
 
     def test_super_user_successful_creation(self):
+        """
+        Test if super user is created successfuly
+        """
         test_email = "supuser@testdom.com"
         test_password = "testPassword"
         user = get_user_model().objects.create_superuser(
