@@ -2,29 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97e79a2f-dae5-42ea-bdb8-adce960aa991" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/recipes-API.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/tests/test_user_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/recipe/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/recipe/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/recipe/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/recipes-API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recipes-API.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/management/commands/wait_for_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/management/commands/wait_for_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/tests/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/tests/test_user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/tests/test_user_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app: database" type="162271b6:PgImplModel$Database" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -47,10 +75,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/app/settings.py" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Django tests.Tests">
     <configuration name="Tests" type="DjangoTestsConfigurationType">
@@ -60,17 +89,97 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="docker-compose://[$PROJECT_DIR$/docker-compose.yml]:app/python" />
+      <option name="SDK_HOME" value="C:\Users\yyavor\Documents\Projects\recipes-API\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="SETTINGS_FILE" value="$PROJECT_DIR$/app/app/settings.py" />
+      <option name="CUSTOM_SETTINGS" value="true" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MakeMigrations" type="PythonConfigurationType" factoryName="Python">
+      <module name="recipes-API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DB_HOST" value="localhost" />
+        <env name="DB_NAME" value="app" />
+        <env name="DB_USER" value="postgres" />
+        <env name="DB_PASS" value="supersecretpassword" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\yyavor\Documents\Projects\recipes-API\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/manage.py" />
+      <option name="PARAMETERS" value="makemigrations" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Migrate" type="PythonConfigurationType" factoryName="Python">
+      <module name="recipes-API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DB_HOST" value="localhost" />
+        <env name="DB_NAME" value="app" />
+        <env name="DB_USER" value="postgres" />
+        <env name="DB_PASS" value="supersecretpassword" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\yyavor\Documents\Projects\recipes-API\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/manage.py" />
+      <option name="PARAMETERS" value="migrate" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run" type="Python.DjangoServer" factoryName="Django server">
+      <module name="recipes-API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DB_HOST" value="localhost" />
+        <env name="DB_NAME" value="app" />
+        <env name="DB_USER" value="postgres" />
+        <env name="DB_PASS" value="supersecretpassword" />
+        <env name="DJANGO_SETTINGS_MODULE" value="app.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\yyavor\Documents\Projects\recipes-API\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Run app" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
@@ -102,8 +211,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Django server.Run" />
       <item itemvalue="Django tests.Tests" />
       <item itemvalue="Docker.Run app" />
+      <item itemvalue="Python.MakeMigrations" />
+      <item itemvalue="Python.Migrate" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -179,6 +291,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573994274243</updated>
       <workItem from="1575794617361" duration="16253000" />
+      <workItem from="1586585450988" duration="12838000" />
     </task>
     <task id="LOCAL-00001" summary="Added support of postgres db.&#10;Added wait for db connection command.&#10;Added test &quot;wait_for_db&quot; command.">
       <created>1575797068273</created>
@@ -211,107 +324,72 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added support of postgres db.&#10;Added wait for db connection command.&#10;Added test &quot;wait_for_db&quot; command." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="306" y="44" key="#Docker" timestamp="1575797891305">
-      <screen x="47" y="24" width="1319" height="744" />
+    <state x="361" y="12" key="#Tests" timestamp="1586588518413">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="306" y="44" key="#Docker/47.24.1319.744@47.24.1319.744" timestamp="1575797891305" />
-    <state x="306" y="44" key="#Inspections" timestamp="1575796068499">
-      <screen x="47" y="24" width="1319" height="744" />
+    <state x="361" y="12" key="#Tests/0.0.1280.680@0.0.1280.680" timestamp="1586588518413" />
+    <state x="38" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586588906210">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="306" y="44" key="#Inspections/47.24.1319.744@47.24.1319.744" timestamp="1575796068499" />
-    <state x="306" y="44" key="#New_Docker_Connection" timestamp="1575794873489">
-      <screen x="47" y="24" width="1319" height="744" />
+    <state x="38" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586588906210" />
+    <state x="471" y="102" key="EnvironmentVariablesDialog" timestamp="1586587177607">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="306" y="44" key="#New_Docker_Connection/47.24.1319.744@47.24.1319.744" timestamp="1575794873489" />
-    <state x="385" y="119" key="#Run_app" timestamp="1575798869539">
-      <screen x="47" y="24" width="1319" height="744" />
+    <state x="471" y="102" key="EnvironmentVariablesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586587177607" />
+    <state x="516" y="95" key="FileChooserDialogImpl" timestamp="1586592429416">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="385" y="119" key="#Run_app/47.24.1319.744@47.24.1319.744" timestamp="1575798869539" />
-    <state x="171" y="41" width="1110" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575799495493">
-      <screen x="47" y="24" width="1319" height="744" />
+    <state x="516" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586592429416" />
+    <state width="1237" height="223" key="GridCell.Tab.0.bottom" timestamp="1586607404127">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="171" y="41" width="1110" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/47.24.1319.744@47.24.1319.744" timestamp="1575799495493" />
-    <state x="385" y="119" key="#docker-compose.yml.app:_Compose_Deployment" timestamp="1575795902987">
-      <screen x="47" y="24" width="1319" height="744" />
+    <state width="1237" height="223" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586607404127" />
+    <state width="1237" height="223" key="GridCell.Tab.0.center" timestamp="1586607404127">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="385" y="119" key="#docker-compose.yml.app:_Compose_Deployment/47.24.1319.744@47.24.1319.744" timestamp="1575795902987" />
-    <state x="276" y="24" key="CommitChangelistDialog2" timestamp="1575818913295">
-      <screen x="47" y="24" width="1319" height="744" />
+    <state width="1237" height="223" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586607404127" />
+    <state width="1237" height="223" key="GridCell.Tab.0.left" timestamp="1586607404127">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="276" y="24" key="CommitChangelistDialog2/47.24.1319.744@47.24.1319.744" timestamp="1575818913295" />
-    <state x="572" y="275" key="DockerComposeFileDialog" timestamp="1575795561755">
-      <screen x="47" y="24" width="1319" height="744" />
+    <state width="1237" height="223" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586607404127" />
+    <state width="1237" height="223" key="GridCell.Tab.0.right" timestamp="1586607404127">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="572" y="275" key="DockerComposeFileDialog/47.24.1319.744@47.24.1319.744" timestamp="1575795561755" />
-    <state x="447" y="163" key="EnvironmentVariablesDialog" timestamp="1575795975106">
-      <screen x="47" y="24" width="1319" height="744" />
+    <state width="1237" height="223" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586607404127" />
+    <state x="221" y="76" key="IDE.errors.dialog" timestamp="1586586627091">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="447" y="163" key="EnvironmentVariablesDialog/47.24.1319.744@47.24.1319.744" timestamp="1575795975106" />
-    <state x="494" y="157" key="FileChooserDialogImpl" timestamp="1575796371172">
-      <screen x="47" y="24" width="1319" height="744" />
+    <state x="221" y="76" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1586586627091" />
+    <state x="129" y="0" key="SettingsEditor" timestamp="1586592433333">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="494" y="157" key="FileChooserDialogImpl/47.24.1319.744@47.24.1319.744" timestamp="1575796371172" />
-    <state width="1273" height="252" key="GridCell.Tab.0.bottom" timestamp="1575818954994">
-      <screen x="47" y="24" width="1319" height="744" />
+    <state x="129" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586592433333" />
+    <state x="508" y="87" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1586587227567">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1273" height="252" key="GridCell.Tab.0.bottom/47.24.1319.744@47.24.1319.744" timestamp="1575818954994" />
-    <state width="1273" height="252" key="GridCell.Tab.0.center" timestamp="1575818954993">
-      <screen x="47" y="24" width="1319" height="744" />
+    <state x="508" y="87" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1280.680@0.0.1280.680" timestamp="1586587227567" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586589996054">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1273" height="252" key="GridCell.Tab.0.center/47.24.1319.744@47.24.1319.744" timestamp="1575818954993" />
-    <state width="1273" height="252" key="GridCell.Tab.0.left" timestamp="1575818954993">
-      <screen x="47" y="24" width="1319" height="744" />
-    </state>
-    <state width="1273" height="252" key="GridCell.Tab.0.left/47.24.1319.744@47.24.1319.744" timestamp="1575818954993" />
-    <state width="1273" height="252" key="GridCell.Tab.0.right" timestamp="1575818954994">
-      <screen x="47" y="24" width="1319" height="744" />
-    </state>
-    <state width="1273" height="252" key="GridCell.Tab.0.right/47.24.1319.744@47.24.1319.744" timestamp="1575818954994" />
-    <state width="1273" height="240" key="GridCell.Tab.1.bottom" timestamp="1575818675398">
-      <screen x="47" y="24" width="1319" height="744" />
-    </state>
-    <state width="1273" height="240" key="GridCell.Tab.1.bottom/47.24.1319.744@47.24.1319.744" timestamp="1575818675398" />
-    <state width="1273" height="240" key="GridCell.Tab.1.center" timestamp="1575818675397">
-      <screen x="47" y="24" width="1319" height="744" />
-    </state>
-    <state width="1273" height="240" key="GridCell.Tab.1.center/47.24.1319.744@47.24.1319.744" timestamp="1575818675397" />
-    <state width="1273" height="240" key="GridCell.Tab.1.left" timestamp="1575818675396">
-      <screen x="47" y="24" width="1319" height="744" />
-    </state>
-    <state width="1273" height="240" key="GridCell.Tab.1.left/47.24.1319.744@47.24.1319.744" timestamp="1575818675396" />
-    <state width="1273" height="240" key="GridCell.Tab.1.right" timestamp="1575818675397">
-      <screen x="47" y="24" width="1319" height="744" />
-    </state>
-    <state width="1273" height="240" key="GridCell.Tab.1.right/47.24.1319.744@47.24.1319.744" timestamp="1575818675397" />
-    <state x="199" y="34" key="SettingsEditor" timestamp="1575803920901">
-      <screen x="47" y="24" width="1319" height="744" />
-    </state>
-    <state x="199" y="34" key="SettingsEditor/47.24.1319.744@47.24.1319.744" timestamp="1575803920901" />
-    <state x="306" y="119" key="Vcs.Push.Dialog.v2" timestamp="1575797071731">
-      <screen x="47" y="24" width="1319" height="744" />
-    </state>
-    <state x="306" y="119" key="Vcs.Push.Dialog.v2/47.24.1319.744@47.24.1319.744" timestamp="1575797071731" />
-    <state x="292" y="249" width="949" height="423" key="dock-window-1" timestamp="1575802512713">
-      <screen x="47" y="24" width="1319" height="744" />
-    </state>
-    <state x="292" y="249" width="949" height="423" key="dock-window-1/47.24.1319.744@47.24.1319.744" timestamp="1575802512713" />
-    <state x="369" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1575817727774">
-      <screen x="47" y="24" width="1319" height="744" />
-    </state>
-    <state x="369" y="89" width="672" height="678" key="search.everywhere.popup/47.24.1319.744@47.24.1319.744" timestamp="1575817727774" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1586589996054" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app/user/tests/test_user_api.py</url>
-          <line>47</line>
+          <line>42</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/recipes_API$MakeMigrations.coverage" NAME="MakeMigrations Coverage Results" MODIFIED="1586593144606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/recipes_API$Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1586607404104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/recipes_API$Migrate.coverage" NAME="Migrate Coverage Results" MODIFIED="1586593151735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/recipes_API$Unnamed.coverage" NAME="Tests Coverage Results" MODIFIED="1575818772362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/recipes_API$tests.coverage" NAME="tests Coverage Results" MODIFIED="1586588718316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/recipes_API$CreateSuperUser.coverage" NAME="CreateSuperUser Coverage Results" MODIFIED="1586588116341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>

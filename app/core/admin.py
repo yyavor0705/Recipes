@@ -1,8 +1,9 @@
 from django.contrib import admin
-from django.contrib.auth.admin import UserAdmin as BasedAdmin
 from django.utils.translation import gettext as _
+from django.contrib.auth.admin import UserAdmin as BasedAdmin
 
 from core import models
+
 
 class UserAdmin(BasedAdmin):
     ordering = ['id']
@@ -26,3 +27,4 @@ class UserAdmin(BasedAdmin):
 
 
 admin.site.register(models.User, UserAdmin)
+admin.site.register(models.Tag)
