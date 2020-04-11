@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97e79a2f-dae5-42ea-bdb8-adce960aa991" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/recipe/tests/test_ingredient_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/tests/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_ingredient_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_ingredient_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573994274243</updated>
       <workItem from="1575794617361" duration="16253000" />
-      <workItem from="1586585450988" duration="18864000" />
+      <workItem from="1586585450988" duration="19611000" />
     </task>
     <task id="LOCAL-00001" summary="Added support of postgres db.&#10;Added wait for db connection command.&#10;Added test &quot;wait_for_db&quot; command.">
       <created>1575797068273</created>
@@ -208,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586607881910</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added ingredients listing feature.">
+      <created>1586619873654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586619873654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +231,8 @@
     <MESSAGE value="Added support of postgres db.&#10;Added wait for db connection command.&#10;Added test &quot;wait_for_db&quot; command." />
     <MESSAGE value="Added user management functionality.&#10;Added recipes API." />
     <MESSAGE value="Added missed files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added missed files" />
+    <MESSAGE value="Added ingredients listing feature." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ingredients listing feature." />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="12" key="#Tests" timestamp="1586588518413">
@@ -242,10 +243,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="33" y="150" width="1089" height="530" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586607739397" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586607880370">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586619872223">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586607880370" />
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586619872223" />
     <state x="471" y="102" key="EnvironmentVariablesDialog" timestamp="1586587177607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -254,22 +255,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="516" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586592429416" />
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1586619711228">
+    <state width="1237" height="223" key="GridCell.Tab.0.bottom" timestamp="1586620544350">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586619711228" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1586619711228">
+    <state width="1237" height="223" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586620544350" />
+    <state width="1237" height="223" key="GridCell.Tab.0.center" timestamp="1586620544350">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586619711228" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1586619711228">
+    <state width="1237" height="223" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586620544350" />
+    <state width="1237" height="223" key="GridCell.Tab.0.left" timestamp="1586620544350">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586619711228" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1586619711228">
+    <state width="1237" height="223" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586620544350" />
+    <state width="1237" height="223" key="GridCell.Tab.0.right" timestamp="1586620544350">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586619711228" />
+    <state width="1237" height="223" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586620544350" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586619711229">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -294,10 +295,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="129" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586592433333" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586608042760">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586619879089">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586608042760" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586619879089" />
     <state x="508" y="87" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1586587227567">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -320,7 +321,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/recipes_API$MakeMigrations.coverage" NAME="MakeMigrations Coverage Results" MODIFIED="1586616615369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/recipes_API$Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1586619711186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/recipes_API$Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1586620544338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/recipes_API$Migrate.coverage" NAME="Migrate Coverage Results" MODIFIED="1586616624477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/recipes_API$Unnamed.coverage" NAME="Tests Coverage Results" MODIFIED="1575818772362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/recipes_API$tests.coverage" NAME="tests Coverage Results" MODIFIED="1586588718316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
