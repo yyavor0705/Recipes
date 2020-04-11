@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97e79a2f-dae5-42ea-bdb8-adce960aa991" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/recipe/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/recipe/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/recipe/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/recipes-API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recipes-API.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/tests/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/tests/test_user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/tests/test_user_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,111 +62,12 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Django tests.Tests">
-    <configuration name="Tests" type="DjangoTestsConfigurationType">
-      <module name="recipes-API" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\yyavor\Documents\Projects\recipes-API\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="$PROJECT_DIR$/app/app/settings.py" />
-      <option name="CUSTOM_SETTINGS" value="true" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MakeMigrations" type="PythonConfigurationType" factoryName="Python">
-      <module name="recipes-API" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DB_HOST" value="localhost" />
-        <env name="DB_NAME" value="app" />
-        <env name="DB_USER" value="postgres" />
-        <env name="DB_PASS" value="supersecretpassword" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\yyavor\Documents\Projects\recipes-API\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/manage.py" />
-      <option name="PARAMETERS" value="makemigrations" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Migrate" type="PythonConfigurationType" factoryName="Python">
-      <module name="recipes-API" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DB_HOST" value="localhost" />
-        <env name="DB_NAME" value="app" />
-        <env name="DB_USER" value="postgres" />
-        <env name="DB_PASS" value="supersecretpassword" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\yyavor\Documents\Projects\recipes-API\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/manage.py" />
-      <option name="PARAMETERS" value="migrate" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Run" type="Python.DjangoServer" factoryName="Django server">
-      <module name="recipes-API" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DB_HOST" value="localhost" />
-        <env name="DB_NAME" value="app" />
-        <env name="DB_USER" value="postgres" />
-        <env name="DB_PASS" value="supersecretpassword" />
-        <env name="DJANGO_SETTINGS_MODULE" value="app.settings" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\yyavor\Documents\Projects\recipes-API\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Migrate">
     <configuration name="Run app" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -291,7 +177,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573994274243</updated>
       <workItem from="1575794617361" duration="16253000" />
-      <workItem from="1586585450988" duration="12838000" />
+      <workItem from="1586585450988" duration="13182000" />
     </task>
     <task id="LOCAL-00001" summary="Added support of postgres db.&#10;Added wait for db connection command.&#10;Added test &quot;wait_for_db&quot; command.">
       <created>1575797068273</created>
@@ -300,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575797068273</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added user management functionality.&#10;Added recipes API.">
+      <created>1586607667638</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586607667638</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,17 +214,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added support of postgres db.&#10;Added wait for db connection command.&#10;Added test &quot;wait_for_db&quot; command." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added support of postgres db.&#10;Added wait for db connection command.&#10;Added test &quot;wait_for_db&quot; command." />
+    <MESSAGE value="Added user management functionality.&#10;Added recipes API." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added user management functionality.&#10;Added recipes API." />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="12" key="#Tests" timestamp="1586588518413">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="361" y="12" key="#Tests/0.0.1280.680@0.0.1280.680" timestamp="1586588518413" />
-    <state x="38" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586588906210">
+    <state x="33" y="150" width="1089" height="530" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586607739397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="38" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586588906210" />
+    <state x="33" y="150" width="1089" height="530" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586607739397" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586607803657">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586607803657" />
     <state x="471" y="102" key="EnvironmentVariablesDialog" timestamp="1586587177607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -364,6 +262,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="129" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586592433333" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586607678959">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586607678959" />
     <state x="508" y="87" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1586587227567">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
