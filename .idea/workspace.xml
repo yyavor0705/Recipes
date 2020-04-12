@@ -4,7 +4,6 @@
     <list default="true" id="97e79a2f-dae5-42ea-bdb8-adce960aa991" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573994274243</updated>
       <workItem from="1575794617361" duration="16253000" />
-      <workItem from="1586585450988" duration="31214000" />
+      <workItem from="1586585450988" duration="32896000" />
     </task>
     <task id="LOCAL-00001" summary="Added support of postgres db.&#10;Added wait for db connection command.&#10;Added test &quot;wait_for_db&quot; command.">
       <created>1575797068273</created>
@@ -244,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586688227564</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added create recipe feature">
+      <created>1586690462330</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586690462330</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +279,8 @@
     <MESSAGE value="Added Recipe model." />
     <MESSAGE value="Added list recipe feature." />
     <MESSAGE value="Added recipe custom detail view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added recipe custom detail view" />
+    <MESSAGE value="Added create recipe feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added create recipe feature" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="12" key="#Tests" timestamp="1586588518413">
@@ -284,10 +291,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="33" y="150" width="1089" height="530" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1586607739397" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586688225143">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586690461430">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586688225143" />
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586690461430" />
     <state x="471" y="102" key="EnvironmentVariablesDialog" timestamp="1586587177607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -336,10 +343,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="129" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586687104769" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586688228779">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586690482216">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586688228779" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586690482216" />
     <state x="508" y="87" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1586587227567">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
