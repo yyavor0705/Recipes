@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="97e79a2f-dae5-42ea-bdb8-adce960aa991" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/tests/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/recipe/c7c8b7d6-7059-4aba-a5fb-73cb91256d7d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploads/recipe/df6d8dda-b333-418d-89d5-6c47fc4ca767.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +72,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Django server.Run">
+  <component name="RunManager" selected="Django tests.Tests">
     <configuration name="Run app" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -186,7 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573994274243</updated>
       <workItem from="1575794617361" duration="16253000" />
-      <workItem from="1586585450988" duration="41144000" />
+      <workItem from="1586585450988" duration="45109000" />
     </task>
     <task id="LOCAL-00001" summary="Added support of postgres db.&#10;Added wait for db connection command.&#10;Added test &quot;wait_for_db&quot; command.">
       <created>1575797068273</created>
@@ -265,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586695555790</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added image uploading functionality">
+      <created>1586704178346</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586704178346</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +299,8 @@
     <MESSAGE value="Added recipe custom detail view" />
     <MESSAGE value="Added create recipe feature" />
     <MESSAGE value="Added update tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added update tests" />
+    <MESSAGE value="Added image uploading functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added image uploading functionality" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="12" key="#Tests" timestamp="1586588518413">
@@ -311,10 +315,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1586699049500" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586695554853">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586704176682">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586695554853" />
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586704176682" />
     <state x="471" y="102" key="EnvironmentVariablesDialog" timestamp="1586587177607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -323,38 +327,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="516" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586592429416" />
-    <state width="1237" height="223" key="GridCell.Tab.0.bottom" timestamp="1586703865583">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1586709400351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="223" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586703865583" />
-    <state width="1237" height="223" key="GridCell.Tab.0.center" timestamp="1586703865582">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586709400351" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1586709400351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="223" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586703865582" />
-    <state width="1237" height="223" key="GridCell.Tab.0.left" timestamp="1586703865582">
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586709400351" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1586709400350">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="223" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586703865582" />
-    <state width="1237" height="223" key="GridCell.Tab.0.right" timestamp="1586703865583">
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586709400350" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1586709400351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="223" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586703865583" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586703572674">
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586709400351" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586709400352">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586703572674" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1586703572674">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586709400352" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1586709400352">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586703572674" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1586703572674">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586709400352" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1586709400351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586703572674" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1586703572674">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586709400351" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1586709400352">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586703572674" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586709400352" />
     <state x="221" y="76" key="IDE.errors.dialog" timestamp="1586586627091">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -363,26 +367,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="129" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586696496200" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586695557167">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586704184459">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586695557167" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586704184459" />
     <state x="508" y="87" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1586587227567">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="508" y="87" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1280.680@0.0.1280.680" timestamp="1586587227567" />
+    <state x="203" y="77" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586708888908">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="203" y="77" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1586708888908" />
     <state x="0" y="0" width="609" height="680" key="find.popup" timestamp="1586703841961">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" width="609" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1586703841961" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586696968289">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586708469630">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1586696968289" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1586708469630" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/recipe/views.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/recipe/views.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/recipes_API$MakeMigrations.coverage" NAME="MakeMigrations Coverage Results" MODIFIED="1586698100274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/recipes_API$Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1586703474536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/recipes_API$Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1586709400306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/recipes_API$Migrate.coverage" NAME="Migrate Coverage Results" MODIFIED="1586698127655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/recipes_API$Unnamed.coverage" NAME="Tests Coverage Results" MODIFIED="1575818772362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/recipes_API$tests.coverage" NAME="tests Coverage Results" MODIFIED="1586588718316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
